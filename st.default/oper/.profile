@@ -32,5 +32,5 @@ fi
 #
 export EDITOR=vim
 export LESS=-XR
-#FS_CHECK_NTP=
-#export FS_CHECK_NTP
+#export FS_CHECK_NTP=1
+#unset TMOUT
