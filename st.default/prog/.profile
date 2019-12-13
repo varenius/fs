@@ -18,18 +18,18 @@ fi
 if ! (echo $PATH | fgrep /usr/local/sbin >/dev/null); then 
  PATH=/usr/local/sbin:${PATH}
 fi
-#if ! (echo $PATH | fgrep /usr2/oper/bin >/dev/null); then 
-# PATH=/usr2/oper/bin:${PATH}
-#fi
+if ! (echo $PATH | fgrep /usr2/oper/bin >/dev/null); then 
+ PATH=/usr2/oper/bin:${PATH}
+fi
 if ! (echo $PATH | fgrep /usr2/prog/bin >/dev/null); then 
  PATH=/usr2/prog/bin:${PATH}
 fi
-#if ! (echo $PATH | fgrep /usr2/fs/bin >/dev/null); then 
-# PATH=/usr2/fs/bin:${PATH}
-#fi
-#if ! (echo $PATH | fgrep /usr2/st/bin >/dev/null); then 
-# PATH=/usr2/st/bin:${PATH}
-#fi
+if ! (echo $PATH | fgrep /usr2/fs/bin >/dev/null); then 
+ PATH=/usr2/fs/bin:${PATH}
+fi
+if ! (echo $PATH | fgrep /usr2/st/bin >/dev/null); then 
+ PATH=/usr2/st/bin:${PATH}
+fi
 if ! (echo $PATH | fgrep /usr/bin/X11 >/dev/null); then 
  PATH=${PATH}:/usr/bin/X11
 fi
