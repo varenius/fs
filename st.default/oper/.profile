@@ -33,4 +33,5 @@ fi
 export EDITOR=vim
 export LESS=-XR
 #export FS_CHECK_NTP=1
+#export FS_DISPLAY_SERVER=on
 #unset TMOUT

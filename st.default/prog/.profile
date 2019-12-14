@@ -39,7 +39,8 @@ fi
 #
 export EDITOR=vim
 export LESS=-XR
-export FC=f95
 #export FS_CHECK_NTP=1
+#export FS_DISPLAY_SERVER=on
+export FC=f95
 export FS_SERIAL_CLOCAL=1
 #export FS_TINFO_LIB=1
